@@ -1,0 +1,174 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+
+}body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0px;
+}
+
+a {
+    color: orangered;
+}
+
+a:visited {
+    color: #8B0000;
+}
+
+.logo {
+    width: 445px;
+    height: 84px;
+    float: center;
+    margin-top: 5px;
+}
+
+#navigation {
+    color: orangered;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#greyline1{
+    border-width: 0.5px;
+    margin-top: 3em;
+    color: #cccccc;
+}
+
+#subtitle1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #656565;
+    font-weight: bold;
+    margin-top: 3.5em;
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lede {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainimageblock {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#mainimage {
+    width: 100%;
+    height: auto;
+}
+
+#mainimagecaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#author {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #666666;
+    margin-top: 1.9em;
+    margin-bottom: 2.4em;
+}
+
+.paragraph {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#lastparagraph {
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row {
+    display: flex;
+    margin: 0px 170px;
+}
+
+.column1 {
+    width: 70%;
+}
+
+.column2 {
+    width: 30%;
+    margin-left: 10px;
+
+}
+
+#subtitle2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-top: 3.5em;
+    margin-left: 40px;
+}
+
+.sideimage {
+    width: 100%;
+    height: auto;
+}
+
+.sideimagecaption {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.greyline2 {
+    border-width: 0.5px;
+    color: #cccccc;
+    margin: 1em 35px;
+}
+
+#footerbox {
+    background-color: #222222;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 2em 170px;
+    width: auto;
+}
+
+#footer {
+    width: 50%;
+}
+
+#about {
+    width: 50%;
+}
