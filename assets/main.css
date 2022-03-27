@@ -1,32 +1,31 @@
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Media Query */
+@media (min-width: 320px) and (max-width: 1024px) { 
+    .row {
+        flex-direction: column;
+    }
+  
+    .column1 {
+        order: 1;
+    }
+  
+    .column2 {
+        order: 2;
+    }
 
-/* Portrait */
+    #footerbox {
+        flex-direction: column;
+    }
 
-@media only screen
+    #footer {
+        order: 1;
+    }
 
-and (min-device-width: 375px)
+    #about {
+        order: 2;
+    }
+} 
 
-and (max-device-width: 667px)
-
-and (-webkit-min-device-pixel-ratio: 2)
-
-and (orientation: portrait) {
-
-}
-
-/* Landscape */
-
-@media only screen
-
-and (min-device-width: 375px)
-
-and (max-device-width: 667px)
-
-and (-webkit-min-device-pixel-ratio: 2)
-
-and (orientation: landscape) {
-
-}body {
+body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 1;
