@@ -1,29 +1,6 @@
 /* Media Query */
 @media (min-width: 320px) and (max-width: 1024px) { 
-    .row {
-        flex-direction: column;
-    }
-  
-    .column1 {
-        order: 1;
-    }
-  
-    .column2 {
-        order: 2;
-    }
-
-    #footerbox {
-        flex-direction: column;
-    }
-
-    #footer {
-        order: 1;
-    }
-
-    #about {
-        order: 2;
-    }
-} 
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -115,21 +92,6 @@ a:visited {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.row {
-    display: flex;
-    margin: 0px 170px;
-}
-
-.column1 {
-    width: 70%;
-}
-
-.column2 {
-    width: 30%;
-    margin-left: 10px;
-
-}
-
 #subtitle2 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -156,7 +118,6 @@ a:visited {
 
 #footerbox {
     background-color: #222222;
-    display: flex;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
